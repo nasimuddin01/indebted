@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <title>InDebted</title>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">
+      <img src="https://assets-global.website-files.com/5ce129717c5e2ffd46ffa13e/5ce20f780b5f0b51fc2589fc_indebted-logo-inline-white-p-500.png" alt="InDebted logo">
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header: Showcase -->
+  <header id="showcase">
+    <div class="showcase-item">
+      <h1 class="big-text">We're here to provide</h1>
+      <h1 class="big-text"> new financial beginnings.</h1>
+      <h3>We leverage machine learning and digital first communication to offer a customer-centric approach to debt collection.</h3>
+      <a class="link" href="#contact">
+        <h3>Contact Us</h3>
+      </a>
+    </div>
+    <div class="showcase-item">
+      <img src="img/debt-collection.svg" alt="Indebted helping customer debt collection">
+    </div>
+  </header>
+
+  <!-- Section: Services -->
+  <section id="services" class="bg-light py-3">
+
+    <h1 class="big-text text-center">What We Offer</h1>
+    <h2 class="py-1 text-center">We support customers through their entire rehabilitation lifecycle.</h2>
+    <div class="container">
+      <div class="item">
+        <i class="fas fa-tasks fa-4x p-1"></i>
+        <div>
+          <h2>Arrears Management</h2>
+          <p>First party servicing model supporting your customers to resolve their overdue accounts.</p>
+        </div>
+      </div>
+      <div class="item">
+        <i class="fas fa-chart-line fa-4x p-1"></i>
+        <div>
+          <h2>Loss Recovery</h2>
+          <p>Third party servicing model that maximises recoveries and the customer experience.</p>
+        </div>
+      </div>
+      <div class="item">
+        <i class="fas fa-hands-helping fa-4x p-1"></i>
+        <div>
+          <h2>Purchased Servicing</h2>
+          <p>Solution for debt purchasers to provide a customer centric rehabilitation program.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Section: Who We Are -->
+  <section id="about">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="big-text">Who We Are</h2>
+      <p>We are a group of technologists, engineers, data scientists, marketers and client
+        service specialists who obsess about one thing; improving client outcomes when it
+        comes to debt collection and receivables management.</p>
+
+      <h2>Our Story</h2>
+      <p>We were founded on the concept that traditional debt collection is broken.
+        It has failed to adapt in how customers want to communicate, poorly leverages data
+        to understand preferences for servicing overdue accounts, and most importantly, offers
+        a bad customer experience.
+      </p>
+      <p>We put the customer at the forefront of everything we do. We understand them,
+        support them, and provide a transparent and simple process to resolve their accounts.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <div class="contact-grid">
+      <img class="contact-image" src="img/contact.svg" alt="A guy is coding">
+      <div class="form">
+        <div>
+          <h2 class="big-text">Partner with us</h2>
+          <h3>We would love to learn more about your business and how we can best
+            support your customers to become debt free.</h3>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+            </p>
+            <p>
+              <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
+            </p>
+            <p>
+              <textarea placeholder="Type your Message Here...." tabindex="3" name="message" required></textarea>
+            </p>
+            <p>
+              <button name="submit" type="submit" data-submit="...Sending">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-primary text-center py-1">
+    <div class="social">
+      <a href="https://twitter.com/InDebtedHQ"><i class="fab fa-twitter fa-2x text-light"></i></a>
+      <a href="https://www.linkedin.com/company/indebted/"><i class="fab fa-linkedin fa-2x text-light"></i></a>
+    </div>
+    <div class="container">
+      <p>&copy; 2019 InDebted</p>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+  <script src="js/main.js"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap" async defer></script>
+</body>
+
+</html>
